@@ -1,4 +1,4 @@
-name: DK-Edutaintment Flow (6x daily)
+name: HI-Edutaintment Flow (6x daily)
 
 on:
   workflow_dispatch:
