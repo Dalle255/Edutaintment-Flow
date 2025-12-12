@@ -40,7 +40,7 @@ jobs:
         run: |
           jupyter nbconvert \
             --to notebook \
-            --execute "DK-GITHUB_2_Edutaintment_Flow_2_0.ipynb" \
+            --execute "DK - GITHUB_2_Edutaintment_Flow_2_0.ipynb" \
             --output "executed.ipynb" \
             --ExecutePreprocessor.timeout=0
 
