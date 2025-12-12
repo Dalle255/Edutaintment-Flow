@@ -1,4 +1,4 @@
-name: ES-Edutaintment Flow (6x daily)
+name: ES - Edutaintment Flow (6x daily)
 
 on:
   workflow_dispatch:
