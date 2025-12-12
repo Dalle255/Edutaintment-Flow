@@ -1,4 +1,4 @@
-name: Edutaintment Flow (6x daily)
+name: EN - Edutaintment Flow (6x daily)
 
 on:
   workflow_dispatch:
@@ -40,7 +40,7 @@ jobs:
         run: |
           jupyter nbconvert \
             --to notebook \
-            --execute "GITHUB_2_Edutaintment_Flow_2_0.ipynb" \
+            --execute "EN - GITHUB_2_Edutaintment_Flow_2_0.ipynb" \
             --output "executed.ipynb" \
             --ExecutePreprocessor.timeout=0
 
