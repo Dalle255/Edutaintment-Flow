@@ -3,7 +3,7 @@ name: HI-Edutaintment Flow (6x daily)
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 6,10,14,17,19,22 * * *"
+    - cron: "30 6,10 * * *"
 
 jobs:
   run-notebook:
