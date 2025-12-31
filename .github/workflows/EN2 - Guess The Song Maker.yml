@@ -3,8 +3,14 @@ name: Guess The Song Maker (EN) - Auto Upload
 on:
   workflow_dispatch: {}
   schedule:
-    # Runs daily at 09:00 UTC (adjust if you want)
-    - cron: "0 9 * * *"
+    # Schedule for Copenhagen WINTER time (CET, UTC+1)
+    # To change for SUMMER (CEST, UTC+2), subtract 1 hour from these values.
+    - cron: '0 8 * * *'   # 9:00 AM Local
+    - cron: '0 9 * * *'   # 10:00 AM Local
+    - cron: '0 18 * * *'  # 7:00 PM Local
+    - cron: '0 19 * * *'  # 8:00 PM Local
+    - cron: '0 20 * * *'  # 9:00 PM Local
+    - cron: '0 21 * * *'  # 10:00 PM Local
 
 concurrency:
   group: guess-the-song-maker
