@@ -4,10 +4,8 @@ on:
   workflow_dispatch: {}
   schedule:
     # 6 scheduled runs daily, optimized for USA Eastern Time (UTC-5)
-    - cron: '0 17 * * *'   # 12:00 PM ET
     - cron: '0 21 * * *'   # 4:00 PM ET
-    - cron: '0 0 * * *'    # 7:00 PM ET (00:00 next day in UTC)
-    - cron: '0 2 * * *'    # 9:00 PM ET (02:00 next day in UTC)
+
 
 concurrency:
   group: guess-the-song-maker
