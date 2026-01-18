@@ -2,9 +2,9 @@ name: Guess The Song Maker (EN) - Auto Upload
 
 on:
   workflow_dispatch: {}
-  schedule:
+  #schedule:
     # 6 scheduled runs daily, optimized for USA Eastern Time (UTC-5)
-    - cron: '0 21 * * *'   # 4:00 PM ET
+    #- cron: '0 21 * * *'   # 4:00 PM ET
 
 
 concurrency:
